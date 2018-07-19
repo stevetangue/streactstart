@@ -1,0 +1,27 @@
+{
+  "name": "streact",
+  "version": "1.0.0",
+  "description": "My play project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --mode=development",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve TANGUE",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "cross-env": "^5.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
